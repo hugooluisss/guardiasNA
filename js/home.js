@@ -50,6 +50,10 @@ $(document).ready(function(){
 	plantillas["home"] = "";
 	plantillas["calendario"] = "";
 	plantillas["guardia"] = "";
+	plantillas["botada"] = "";
+	plantillas["estadisticas"] = "";
+	plantillas["itemResponsable"] = "";
+	plantillas["botadaDetalle"] = "";
 	
 	setPanel();
 	
@@ -67,6 +71,9 @@ function callPanel(panel){
 		break;
 		case 'calendario':
 			callCalendario();
+		break;
+		case 'estadisticas':
+			callEstadisticas();
 		break;
 		default:
 			console.info("Panel no encontrado");

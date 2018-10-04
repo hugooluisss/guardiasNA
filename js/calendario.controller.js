@@ -6,6 +6,7 @@ function callCalendario(){
 	
 	$("#selDia").change(getGuardias);
 	
+	
 	getGuardias();	
 	function getGuardias(){
 		$("#lista").find("li").remove();

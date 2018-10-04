@@ -1,0 +1,44 @@
+<div class="row">
+	<div class="col-12">
+		<button class="btn btn-warning" showpanel="home">Regresar</button>
+	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-6">
+		<input type="text" class="form-control" id="txtInicio" name="txtInicio" readonly="true">
+	</div>
+	<div class="col-6">
+		<input type="text" class="form-control" id="txtFin" name="txtFin" readonly="true">
+	</div>
+</div>
+<br />
+<div class="card">
+	<div class="card-header">
+		Guardias botadas
+	</div>
+	<div class="card-body" id="lista">
+		
+	</div>
+</div>
+
+<div id="winDetalle" class="modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Guardias botadas de <span campo="responsable"></span></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p><span campo="responsable"></span> a la semana tiene <span campo="totalGuardias"></span> guardias como responsable, de las cuales ha dejado botadas las siguientes:</p>
+				<ul class="list-group" id="guardiasBotadas">
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Después</button>
+			</div>
+		</div>
+	</div>
+</div>
