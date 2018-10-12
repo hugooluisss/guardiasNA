@@ -1,4 +1,5 @@
-server = "http://192.168.1.71/guardiasNA/";
+//server = "http://192.168.1.71/guardiasNA/";
+server = "http://localhost/guardiasNA/";
 
 var idUsuario = undefined;
 /*
